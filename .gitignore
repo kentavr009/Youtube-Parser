@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets - НИКОГДА не добавляйте эти файлы в Git!
+.env
+credentials.json
+*.json
+
+# Cache & Progress files
+*.db
+*.db-journal
+*.db.bak
+*.db.dat
+*.db.dir
+
+# Output files
+*.csv
+*.log
